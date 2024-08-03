@@ -11,8 +11,8 @@ public:
 
         vector<vector<string>> result;
     
-        for (auto& entry : anagramMap) {
-            result.push_back(entry.second);
+        for (auto it: anagramMap) {
+            result.push_back(it.second);
         }
 
         return result;
